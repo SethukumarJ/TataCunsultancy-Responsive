@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <title>Tcs</title>
+</head>
+<body>
+
+  
+  
+  
+  <div class="container-fluid wrapper-nav px-0">
+
+  
+  <div class="container-lg">
+    <!-- <--=================Nav-Bar==================--> 
+    
+
+
+        <div class="row nav-container sticky-top">
+    <div class="col-12 nav-bar">
+         <div class="left-nav">
+           <img src="images/tcs-logo-tata-white-2x-dec2021.png" alt="tcs-image">
+         </div>
+
+          <!-- ===================Less than 1000px==================== -->
+       <div class="right-nav lst">
+         <img src="images/tata-logo-white.png" alt="tcs-image">
+           
+            <a href="#"><i class="ri-search-line" id="search-icon" onclick="searchbox_open()"></i></a>
+
+
+            <div id="search-container">
+              <i class="ri-arrow-right-s-line" onclick="searchbox_close()" id="search-close-icon"></i>
+                <input type="text" placeholder="Search">
+                
+              </div>
+              
+
+            
+
+            <i class="ri-menu-line" id="menu-icon" onclick="drop_down()"></i>
+           
+            <div class="drop-down" id="drop-down">
+    
+                 
+
+             
+              
+
+              <a href="#">industries</a>
+              <i class="ri-arrow-up-s-line" onclick="drop_up()" id="menu-up-icon"></i>
+              <a href="#">Services</a>
+              <a href="#">Products&Platforms</a>
+              <a href="#">Discover TCS</a>
+              <a href="#">Insights</a>
+              <a href="#">Careers</a>
+
+            </div>
+
+            <style>
+             
+              #search-container{
+                display: none;
+                position: absolute;
+                right: 40px;
+              }
+              .drop-down{
+               display: none;
+                width: 100px;
+                position: absolute;
+                right: 0px;
+                top: 5px;
+                background-color: black;
+                z-index: 999999;
+              }
+
+              .drop-down a{
+                text-decoration: none;
+                color: gray;
+                font-size: 13px;
+                line-height: 20px;
+              }
+              .drop-down a:hover{
+                color: white;
+              }
+            </style>
+
+
+            
+            
+         
+
+     </div>
+       <!-- ===================greater than 1000px==================== --> 
+        <div class="alt-right-nav gst">
+          <a href="#">industries</a>
+          <a href="#">Services</a>
+          <a href="#">Products&Platforms</a>
+          <a href="#">Discover TCS</a>
+          <a href="#">Insights</a>
+          <a href="#">Careers</a>
+          <!-- <a href="#"><i class="ri-search-line" id="search-icon" onclick="searchbox_open()"></i></a> -->
+          <a href="#"><i class="ri-search-line fa-2x" id="bg-search-icon" onclick="searchbox_open()"></i></a>
+          <div id="search-container-2">
+            <i class="ri-arrow-right-s-line" onclick="searchbox_close()" id="search-close-icon"></i>
+              <input type="text" placeholder="Search">
+              
+            </div>
+          <img src="images/tata-logo-white.png" alt="tcs-image">
+
+
+          <style>
+                 #search-container-2{
+                display: none;
+                position: absolute;
+                right: 80px;
+              }
+          </style>
+        </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+<style>
+  .alt-right-nav a:hover{
+    color: white;
+  }
+</style>
+
+<!-- <--=================Under Nav-Bar==================-->
+ 
+<div class="row under-nav-container">
+   <div class="col-12 textBanner">
+      <p>TCS Announced Second Quarter FY 2023 Results on October 10, 2022</p>
+      <a href="#">Learn More ></a>
+   </div>
+</div>
+</div>
+<!-- <--=================Image rows==================-->
+
+<div class="image-section-1 image-section col-12 px-0">
+    <div class="gradient-image-red gradient-image col-12 px-0">
+     <div class="text-block col-12 px-0">
+       <span>HITECH</span>
+       <p>Driving innovative business transformations</p>
+     </div>
+   </div>
+</div>
+
+<div class="image-section image-section-2 col-12 px-0">
+  <div class="gradient-image-blue gradient-image col-12 px-0">
+   <div class="text-block col-10 offset-1 px-0">
+     <span>EXECUTIVE VIEWPOINT</span>
+     <p>Ethical AI: A New Strategic Imperative for Recruiting and Staffing</p>
+     <h5>Shaping the new world of work with explainable AI</h5>
+     <button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+ Learn More
+</button>
+   </div>
+ </div>
+</div>
+<!-- <--=================Card-Section-1==================-->
+<div class="container-xxl Card-Section px-0">
+  <div class="row story-row px-0">
+    <h5 class="cards-section-heading">Customer Stories</h5>
+    <div class="story-card-1 col-10 offset-1 story-card col-lg-3  px-0">
+        <div class="story-card-body">
+          <h5>CUSTOMER TESTIMONIAL</h5>
+          <h4>Celebrating 17 years of a successful partnership</h4>
+          <span>As a strategic partner to SAP, TCS has been delivering value to the company's multiple lines of business since 2005. </span>
+          <h6 class="date">10 Oct 2022</h6>
+      </div>
+   </div>
+
+   <div class="story-card-2 story-card col-lg-4  px-0">
+    <div class="story-card-body">
+      <h5>SUCCESS STORY</h5>
+      <h4>Lexmark Gains Efficiency with SAP HEC</h4>
+      <span>TCS helps Lexmark with cloud-based SAP transfomation while ensuring business continuity</span>
+      <h6 class="date">04 May 2021</h6>
+  </div>
+</div>
+
+<div class="story-card-3 story-card col-lg-3  px-0">
+  <div class="story-card-body">
+    <h5>CUSTOMER TESTIMONIAL</h5>
+    <h4>Rx Components gets on cloud for industries</h4>
+    <span>As a strategic partner to SAP, TCS has been delivering value to the company's multiple lines of business since 2005. </span>
+    <h6 class="date">10 Oct 2022</h6>
+</div>
+</div>
+ </div>
+</div>
+
+
+
+<div class="image-section image-section-3 col-12 px-0">
+  <div class="gradient-image-blue gradient-image col-12 px-0">
+   <div class="text-block col-10 offset-1 px-0">
+     <span>SUCCESS STORY</span>
+     <p>Lexmark Gains Efficiency with SAP HEC</p>
+     <h5>An intelligent talent management solution powered by machine learning capabilities</h5>
+     <button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+        Know More
+    </button>
+   </div>
+ </div>
+</div>
+
+<!-- <--=================Card-Section-2==================-->
+<div class="container-xl Card-Section px-0">
+  <div class="row story-row px-0">
+    <h5 class="cards-section-heading">Events And Podcasts</h5>
+    <div class="story-card-4 col-10 offset-1 story-card col-lg-3  px-0">
+        <div class="story-card-body">
+          <h5>OFFERING</h5>
+          <h4>Blockchain Adoption Services for HighTech</h4>
+          <span>A full services suit for hitech and proffesional services companies looking to implement blockchain</span>
+          <h6 class="date">10 Oct 2022</h6>
+      </div>
+   </div>
+
+   <div class="story-card-5 story-card col-lg-4  px-0">
+    <div class="story-card-body">
+      <h5>VIRTUAL EVENT</h5>
+      <h4>Hitech Webinar: Innovation Driving Buisiness Growth During</h4>
+      <span>Crucible for growth and innovation for new begginers</span>
+      <h6 class="date">04 May 2021</h6>
+  </div>
+</div>
+
+<div class="story-card-6 story-card col-lg-3  px-0">
+  <div class="story-card-body">
+    <h5>Event</h5>
+    <h4>TCS at HPE DISCOVER 2022</h4>
+    <span>This event will showcase the future vision of an edge-to-cloud platform</span>
+    <h6 class="date">10 Oct 2022</h6>
+</div>
+</div>
+ </div>
+</div>
+
+<!-- <--=================Footer Tag==================-->
+<footer>
+           
+  <div class="accordion footer" id="accordionExample">
+    <div class="accordion-item first-accordion">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          <p class="acordian-heading">INDUSTRIES</p>
+          
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" 
+      aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <ul class="list-group">
+            <li><a href="#">Banking & Finantial Services</a></li>
+            <li><a href="#"> Capital Markets</a></li>
+            <li><a href="#">Consumer Goods & Distribution</a></li>
+            <li><a href="#"> Communications, Media & Technology</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Energy, Resources & Utilities</a></li>
+            <li><a href="#">HiTech</a></li>
+            <li><a href="#">Information Services</a></li>
+            <li><a href="#">Insurance</a></li>
+            <li><a href="#">Life Sciences & Healthcare</a></li>
+            <li><a href="#">Manufacturing</a></li>
+            <li><a href="#">Retail</a></li>
+            <li><a href="#">Travel, Transprotation & Hospitality</a></li>
+           
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <p class="acordian-heading">SERVICES</p>
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" 
+      aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <ul class="list-group">
+            <li><a href="#">Anlytics and Insights</a></li>
+            <li><a href="#"> Automation & AI</a></li>
+            <li><a href="#">Bloackchain</a></li>
+            <li><a href="#">Cloud</a></li>
+            <li><a href="#">Cognitive Business Operations</a></li>
+            <li><a href="#">Energy, Resources & Utilities</a></li>
+            <li><a href="#">Consulting</a></li>
+            <li><a href="#">Cyber Security</a></li>
+            <li><a href="#">Enterprise Applications</a></li>
+            <li><a href="#">IOT & Digital Engineering</a></li>
+            <li><a href="#">Quality Engineering</a></li>
+            <li><a href="#">Retail</a></li>
+            <li><a href="#">Travel, Transprotation & Hospitality</a></li>
+         </ul>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <p class="acordian-heading">PRODUCTS AND PLATFORM </p>
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" 
+      aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <ul class="list-group">
+            <li><a href="#">Banking & Finantial Services</a></li>
+            <li><a href="#"> Capital Markets</a></li>
+            <li><a href="#">Consumer Goods & Distribution</a></li>
+            <li><a href="#"> Communications, Media & Technology</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Energy, Resources & Utilities</a></li>
+            <li><a href="#">HiTech</a></li>
+            <li><a href="#">Information Services</a></li>
+            <li><a href="#">Insurance</a></li>
+            <li><a href="#">Life Sciences & Healthcare</a></li>
+            <li><a href="#">Manufacturing</a></li>
+            <li><a href="#">Retail</a></li>
+            <li><a href="#">Travel, Transprotation & Hospitality</a></li>
+         </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+           <p class="acordian-heading">INSIGHTS</p>
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" 
+      data-bs-parent="#accordionExample">
+        <div class="accordion-body colors">
+          <ul class="list-group">
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Customer Stories</a></li>
+            <li><a href="#">Lens</a></li>
+            <li><a href="#">Perspectives</a></li>
+            
+         </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         <p class="acordian-heading"> DISCOVER TCS </p>
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" 
+      data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <ul class="list-group">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Building on Belief</a></li>
+            <li><a href="#">Alliances & Partnerships</a></li>
+            <li><a href="#">Corporate Social Resposibility</a></li>
+            <li><a href="#">Leadership & Diversity</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">HiTech</a></li>
+            <li><a href="#">Newsroom</a></li>
+            <li><a href="#">TCS Research</a></li>
+            <li><a href="#">Sports Sponsorships</a></li>
+            <li><a href="#">Manufacturing</a></li>
+            <li><a href="#">Retail</a></li>
+          
+         </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         <p class="acordian-heading"> CORPRATE TCS  </p>
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+       data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <ul class="list-group">
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">TCS Worldwide</a></li>
+         
+         </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+
+
+
+<div class="footer-block-container">
+ 
+   <div class="row footer-block-row">
+ 
+      <h1>CONNECT WITH TCS</h1>
+      <div class="icon-container">
+        <a href="#"><i class="ri-linkedin-box-fill fa-2x"></i></a>
+        <a href="#"><i class="ri-instagram-line fa-2x"></i></a>
+        <a href="#"><i class="ri-twitter-line fa-2x"></i></a>
+        <a href="#"><i class="ri-facebook-box-fill fa-2x"></i></a>
+      </div> 
+    <div class="disclaimer-block">
+      <a href="#">Contact Us</a>
+      <a href="#">Privacy Notice</a>
+      <a href="#">Security Policy</a>
+      <a href="#">Cokie Policy</a>
+      <a href="#">Customer cukies</a>
+      <a href="#">Disclaimer</a>
+     
+    </div>
+    
+    <p class="copy">©2022 Tata Consultancy Services Limited. All Rights Reserved.</p>
+</div>
+
+</div>
+
+
+
+<!-- GREATER THEAN 1000PX -->
+<div class="container-lg  alt-footer">
+   <div class="row footer-row">
+    <div class="col-lg-2 footer-column">
+
+      <ul class="list-group">
+       
+        <p class="acordian-heading">INDUSTRIES</p>
+        <li><a href="#">Banking & Finantial Services</a></li>
+        <li><a href="#"> Capital Markets</a></li>
+        <li><a href="#">Consumer Goods & Distribution</a></li>
+        <li><a href="#"> Communications, Media & Technology</a></li>
+        <li><a href="#">Education</a></li>
+        <li><a href="#">Energy, Resources & Utilities</a></li>
+        <li><a href="#">HiTech</a></li>
+        <li><a href="#">Information Services</a></li>
+        <li><a href="#">Insurance</a></li>
+        <li><a href="#">Life Sciences & Healthcare</a></li>
+        <li><a href="#">Manufacturing</a></li>
+        <li><a href="#">Retail</a></li>
+        <li><a href="#">Travel, Transprotation & Hospitality</a></li>
+       
+      </ul>
+    </div>
+
+
+    <div class="footer-column col-lg-2">
+      <ul class="list-group">
+        <p class="acordian-heading">SERVICES</p>
+        <li><a href="#">Anlytics and Insights</a></li>
+        <li><a href="#"> Automation & AI</a></li>
+        <li><a href="#">Bloackchain</a></li>
+        <li><a href="#">Cloud</a></li>
+        <li><a href="#">Cognitive Business Operations</a></li>
+        <li><a href="#">Energy, Resources & Utilities</a></li>
+        <li><a href="#">Consulting</a></li>
+        <li><a href="#">Cyber Security</a></li>
+        <li><a href="#">Enterprise Applications</a></li>
+        <li><a href="#">IOT & Digital Engineering</a></li>
+        <li><a href="#">Quality Engineering</a></li>
+        <li><a href="#">Retail</a></li>
+        <li><a href="#">Travel, Transprotation & Hospitality</a></li>
+     </ul>
+    </div>
+
+    <div class="footer-column col-lg-2">
+      <ul class="list-group">
+        <p class="acordian-heading">PRODUCTS AND PLATFORM </p>
+        <li><a href="#">Banking & Finantial Services</a></li>
+        <li><a href="#"> Capital Markets</a></li>
+        <li><a href="#">Consumer Goods & Distribution</a></li>
+        <li><a href="#"> Communications, Media & Technology</a></li>
+        <li><a href="#">Education</a></li>
+        <li><a href="#">Energy, Resources & Utilities</a></li>
+        <li><a href="#">HiTech</a></li>
+        <li><a href="#">Information Services</a></li>
+        <li><a href="#">Insurance</a></li>
+        <li><a href="#">Life Sciences & Healthcare</a></li>
+        <li><a href="#">Manufacturing</a></li>
+        <li><a href="#">Retail</a></li>
+        <li><a href="#">Travel, Transprotation & Hospitality</a></li>
+     </ul>
+     <p></p>
+     <ul class="list-group">
+      <p class="acordian-heading">INSIGHTS</p>
+      <li><a href="#">Blogs</a></li>
+      <li><a href="#">Customer Stories</a></li>
+      <li><a href="#">Lens</a></li>
+      <li><a href="#">Perspectives</a></li>
+     <p></p>
+   </ul>
+    </div>
+
+    <div class="footer-column col-lg-2">
+     
+     <ul class="list-group">
+      <p class="acordian-heading"> CORPORATE TCS </p>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">TCS Worldwide</a></li>
+   
+   </ul>
+    <p></p>
+   <ul class="list-group">
+    <p class="acordian-heading"> DISCOVER TCS </p>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Building on Belief</a></li>
+    <li><a href="#">Alliances & Partnerships</a></li>
+    <li><a href="#">Corporate Social Resposibility</a></li>
+    <li><a href="#">Leadership & Diversity</a></li>
+    <li><a href="#">Events</a></li>
+    <li><a href="#">HiTech</a></li>
+    <li><a href="#">Newsroom</a></li>
+    <li><a href="#">TCS Research</a></li>
+    <li><a href="#">Sports Sponsorships</a></li>
+    <li><a href="#">Manufacturing</a></li>
+    <li><a href="#">Retail</a></li> 
+  
+ </ul>
+    </div>
+
+
+    <div class="footer-column col-lg-2">
+      <ul class="list-group">
+
+        <p class="acordian-heading"> CONNECT WITH TCS</p>
+        <div class="row">
+          <div class="icon-container col-12">
+            <a href="#"><i class="ri-linkedin-box-fill fa-2x"></i></a>
+            <a href="#"><i class="ri-instagram-line fa-2x"></i></a>
+            <a href="#"><i class="ri-twitter-line fa-2x"></i></a>
+            <a href="#"><i class="ri-facebook-box-fill fa-2x"></i></a>
+          </div> 
+        </div>
+       
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Privacy Notice</a></li>
+              <li><a href="#">Security Policy</a></li>
+              <li><a href="#">Cokie Policy</a></li>
+              <li><a href="#">/Customer cukies</a></li>
+              <li><a href="#">Disclaimer</a></li>
+        </ul>
+      
+    </div>
+  </div>
+
+  <div class="row">
+    <p class="copy">©2022 Tata Consultancy Services Limited. All Rights Reserved.</p>
+  </div>
+</div>
+
+
+</footer>
+
+<script src="Js/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+<script src="JS/bootstrap.min.js"></script>
+<script src="JS/script.js"></script>
+</body>
+
+</html>
